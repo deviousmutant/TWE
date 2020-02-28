@@ -176,7 +176,31 @@
 	height: auto;
 	color: #fff;
 }
-
+/* Trending */
+.trend-left {
+	color: #42e0f5;
+	opacity: 0.5;
+	position: absolute;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+}
+.trend-right {
+	padding-left: 8px;
+	color: #ff2003;
+	opacity: 0.5;
+	position: absolute;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+}
+.trend-center{
+	color: #fff;
+	padding-left: 4px;
+	position: absolute;
+	font-family: HelveticaNeue-CondensedBold;
+	font-size: 3em;
+	opacity: 1;
+	z-index: 1;
+}
 /* Animations */
 @keyframes bounce {
 	from {color: #fff; transform: rotate(2deg);}
